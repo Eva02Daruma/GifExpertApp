@@ -27,7 +27,7 @@ export const AddCategory = ({ onNewCategory }) => {
   };
 
   return (
-    <form className="m-2" onSubmit={ (event) => onSubmit(event)}>
+    <form className="m-2" onSubmit={ (event) => onSubmit(event)} aria-label="form">
       <input
         className="md:py-3 md:px-12 bg-gray-100 text-gray-800 shadow-lg rounded-lg hover:bg-rose-800 hover:text-gray-100"
         type="text"
